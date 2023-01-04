@@ -1,4 +1,7 @@
-######### Kubernetes Wordsmith Demo
+# Devops is methodology
+# it works fast CI and CD
+
+# Kubernetes Wordsmith Demo
 
 Wordsmith is the demo project shown at DockerCon EU 2017 and 2018.
 
