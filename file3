@@ -3,10 +3,12 @@ import com.google.common.base.Suppliers;
 import com.sun.net.httpserver.HttpHandler;
 import com.sun.net.httpserver.HttpServer;
 
+sadfghjkjhgfds
+
 import java.io.OutputStream;
 import java.net.InetSocketAddress;
 import java.sql.*;
-import java.util.NoSuchElementException;
+
 
 public class Main {
     public static void main(String[] args) throws Exception {
@@ -14,8 +16,11 @@ public class Main {
 
         HttpServer server = HttpServer.create(new InetSocketAddress(8080), 0);
         server.createContext("/noun", handler(() -> randomWord("nouns")));
-        server.createContext("/verb", handler(() -> randomWord("verbs")));
+        server.cat.cat.createContext("/verb", handler(() -> randomWord("verbs")));
         server.createContext("/adjective", handler(() -> randomWord("adjectives")));
         server.start();
     }
+fgfdsgfdgfdgdfg
+ghdhfg
+dghgfhgf
 
